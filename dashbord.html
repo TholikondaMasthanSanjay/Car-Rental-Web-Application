@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard | M-Drive Fleet</title>
+    <link rel="stylesheet" href="dashboard-style.css">
+</head>
+<body>
+
+    <div class="dashboard-container">
+        <aside class="sidebar">
+            <div class="logo">M-<span>DRIVE</span></div>
+            
+            <div class="filter-section">
+                <h3>Select Brand</h3>
+                <ul class="brand-list">
+                    <li class="active">All Models</li>
+                    <li>Audi</li>
+                    <li>BMW</li>
+                    <li>Mercedes-Benz</li>
+                    <li>Tata</li>
+                    <li>Toyota</li>
+                    <li>Land Rovel</li>
+                </ul>
+            </div>
+
+            <div class="filter-section">
+                <h3>Booking Timeline</h3>
+                <div class="date-input">
+                    <label>Pickup</label>
+                    <input type="datetime-local">
+                </div>
+                <div class="date-input">
+                    <label>Return</label>
+                    <input type="datetime-local">
+                </div>
+            </div>
+            
+            <button class="btn-refresh">Update Availability</button>
+        </aside>
+
+        <main class="main-content">
+            <header class="dash-header">
+                <h2>Available Fleet <span>(12 Cars Found)</span></h2>
+                <div class="user-profile">
+                    <span>Welcome, Driver</span>
+                    <div class="avatar"></div>
+                </div>
+            </header>
+
+            <div class="car-grid">
+                <div class="car-card">
+                    <div class="car-image">
+                        <img src="https://images.unsplash.com/photo-1555215695-3004980ad54e?auto=format&fit=crop&q=80&w=600" alt="BMW M5">
+                    </div>
+                    <div class="car-info">
+                        <div class="car-header">
+                            <h4>BMW M5 Competition</h4>
+                            <span class="price">₹8099/day</span>
+                        </div>
+                        <p>4.4L V8 | 627 HP | Automatic</p>
+                        <button class="btn-book">BOOK NOW</button>
+                    </div>
+                </div>
+
+                <div class="car-card">
+                    <div class="car-image">
+                        <img src="https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8?auto=format&fit=crop&q=80&w=600" alt="Mercedes E63">
+                    </div>
+                    <div class="car-info">
+                        <div class="car-header">
+                            <h4>Mercedes-AMG E63</h4>
+                            <span class="price">₹9099/day</span>
+                        </div>
+                        <p>4.0L V8 | 603 HP | AWD</p>
+                        <button class="btn-book">BOOK NOW</button>
+                    </div>
+                </div>
+
+                <div class="car-card">
+                    <div class="car-image">
+                        <img src=https://cdn.motor1.com/images/mgl/3KQOL/s1/2020-audi-s6-sedan.jpg>
+                    </div>
+                    <div class="car-info">
+                        <div class="car-header">
+                            <h4>Audi RS6 Avant</h4>
+                            <span class="price">₹8099/day</span>
+                        </div>
+                        <p>4.0L V8 | 591 HP | Quattro</p>
+                        <button class="btn-book">BOOK NOW</button>
+                    </div>
+                </div>
+
+
+
+                <div class="car-card">
+                    <div class="car-image">
+                        <img src=https://mala.ae/wp-content/uploads/2024/06/Toyota-Fortuner.webp>
+                    </div>
+                    <div class="car-info">
+                        <div class="car-header">
+                            <h4>Toyota Fortuner Neo Drive</h4>
+                            <span class="price">₹7099/day</span>
+                        </div>
+                        <p> 2.8L Diesel| 201 HP | 4x4 High-Torque</p>
+                        <button class="btn-book">BOOK NOW</button>
+                    </div>
+                </div>
+
+                <div class="car-card">
+                    <div class="car-image">
+                        <img src=https://content.carlelo.com/media/news/tata-sierra-continues-testing.webp>
+                    </div>
+                    <div class="car-info">
+                        <div class="car-header">
+                            <h4>TATA Sierra </h4>
+                            <span class="price">₹3099/day</span>
+                        </div>
+                        <p> 1.5L Diesel | 158 HP | FWD- 280Nm-Torque </p>
+                        <button class="btn-book">BOOK NOW</button>
+                    </div>
+                </div>
+
+
+
+
+
+
+
+
+
+
+            </div>
+        </main>
+    </div>
+
+</body>
+</html>
